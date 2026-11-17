@@ -1,8 +1,13 @@
 {
   "name": "inflation-city-classroom",
-  "version": "9.0.0",
+  "version": "11.0.0",
   "private": true,
-  "description": "Real-time 16-student civic economics board game",
-  "engines": { "node": ">=18" },
-  "scripts": { "start": "node server.js", "test": "node test.js" }
+  "description": "Real-time 16-student economic and political board game with teacher console, trades, and WebGL architecture",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test.js && node test-v10.js && node test-audio-v11.js"
+  }
 }
